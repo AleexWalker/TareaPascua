@@ -15,8 +15,8 @@ public class Ejercicio5 {
         String entrada = teclado.next();
 
         try {
-            FileReader fichero = new FileReader("/home/administrador/Escritorio/Lector/" + entrada);   /** Seleccionamos el fichero deseado con la clase File */
-            BufferedReader lector = new BufferedReader(fichero);                                                /** BufferedReader es una clase de Java para leer el texto de una secuencia de entrada (como un archivo) almacenando en el búfer caracteres que leen */
+            FileReader fichero = new FileReader("./" + entrada);   /** Seleccionamos el fichero deseado con la clase File */
+            BufferedReader lector = new BufferedReader(fichero);            /** BufferedReader es una clase de Java para leer el texto de una secuencia de entrada (como un archivo) almacenando en el búfer caracteres que leen */
 
             /**
              * En el siguiente bucle lo que se hace es inicializar la variable caracter primeramente
